@@ -296,8 +296,6 @@ round(mse_summary_neither_correct, 3)
 # Make Latex Tables #
 #####################
 
-rownames(mse_summary_iv_correct)
-
 library("kable")
 library("kableExtra")
 kable(mse_summary_iv_correct, format="latex", digits = 1)
